@@ -6,7 +6,15 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
-
+    .terrible{
+        background-color: #832525;
+    }
+    .bad{
+        background-color: #ae581e;
+    }
+    .good{
+        background-color: #1eae3b;
+    }
     html, body, #root{
         width: 100vw;
         height: 100vh;
